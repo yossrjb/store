@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Online Store Landing Page</title>
+    <link rel="stylesheet" href="store.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header>
+      <div class="header-container">
+        <h1>Welcome to Our Online Dark Academia Store</h1>
+        <nav class="nav-menu">
+          <a href="#products">Products</a>
+          <a href="#about">About Us</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Product Section -->
+    <section id="products" class="product-section">
+      <h2>Featured Products</h2>
+      <div class="product-cards">
+        <div class="product-card">
+          <img
+            src="hockerty_create_an_image_of_a_woman_dressed_in_a_classic_dark_75b3ca97-daea-42eb-a683-e72f2f1b7254_2.jpg"
+            alt="Product 1"
+            height="100Px"
+          />
+          <h3>Tweed Blazer</h3>
+          <p>
+            A classic, fitted tweed blazer in muted tones, perfect for layering
+            over blouses or turtlenecks. This versatile piece adds a scholarly,
+            vintage touch to any outfit.
+          </p>
+          <button>Shop Now</button>
+        </div>
+        <div class="product-card">
+          <img src="5193U01421L._AC_UY1000_.jpg" alt="Product 2" />
+          <h3>Mock Neck Sweater</h3>
+          <p>
+            A cozy, soft wool-blend sweater with a mock neck and ribbed cuffs.
+            Available in earthy tones like deep brown, charcoal, and olive, it’s
+            ideal for creating layered, intellectual looks.
+          </p>
+          <button>Shop Now</button>
+        </div>
+        <div class="product-card">
+          <img
+            src="product-image-1886199814_1024x1024@2x.webp"
+            alt="Product 3"
+          />
+          <h3>Pleated Midi Skirt</h3>
+          <p>
+            A high-waisted, pleated midi skirt in a dark plaid pattern. This
+            skirt brings a touch of elegance and pairs beautifully with blouses,
+            sweaters, or blazers for a classic, academic-inspired outfit.
+          </p>
+          <button>Shop Now</button>
+        </div>
+        <div class="product-card">
+          <img src="image.png" alt="Product 4" />
+          <h3>Oxford Shoes</h3>
+          <p>
+            Timeless leather Oxford shoes with a polished finish and lace-up
+            detail. Comfortable and stylish, these shoes complement trousers,
+            skirts, and dresses, adding a refined touch to any dark academia
+            look.
+          </p>
+          <button>Shop Now</button>
+        </div>
+        <div class="product-card">
+          <img
+            src="12c3ae35684b120c2fe7c2a1944395d5.jpg"
+            alt="Long Wool Trench Coat"
+          />
+          <h3>Long Wool Trench Coat</h3>
+          <p>
+            A sophisticated, knee-length wool trench coat in dark academia tones
+            such as charcoal, deep brown, or olive green. With a tailored fit,
+            wide lapels, and a belted waist, this coat adds elegance and warmth
+            to any outfit, making it a staple for layering over blazers,
+            turtlenecks, or cozy sweaters. Perfect for achieving a timeless,
+            scholarly look.
+          </p>
+          <button>Shop Now</button>
+        </div>
+      </div>
+    </section>
+    <br />
+    <br />
+    <!--contact section-->
+    <section id="contact" class="contact-section">
+      <h2>Contact Us</h2>
+      <p>
+        Email:
+        <a href="mailto:info@darkacademiastore.com"
+          >info@darkacademiastore.com</a
+        >
+      </p>
+      <p>Phone: <a href="tel:+1234567890">+1 (234) 567-890</a></p>
+      <p>Address: 123 Dark Academia St., Booktown, Literature 45678</p>
+      <p>
+        If you have any questions or need assistance, feel free to reach out to
+        us!
+      </p>
+
+      <form id="contact-form" action="/submit-contact" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required /><br /><br />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required /><br /><br />
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea><br /><br />
+
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="footer-section" id="about">
+          <h3>About Us</h3>
+          <p>
+            Inspired by the aesthetics of dark academia, we bring you timeless
+            clothing pieces with vintage charm.
+          </p>
+        </div>
+        <div class="footer-section">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="#products">Shop</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#newsletter">Newsletter</a></li>
+            <li><a href="#blog">Blog</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h3>Follow Us</h3>
+          <div class="social-media">
+            <a href="#"
+              ><img
+                src="png-clipart-computer-icons-facebook-inc-social-media-logo-facebook-rectangle-logo-thumbnail.png"
+                alt="Facebook"
+            /></a>
+            <a href="#"
+              ><img
+                src="png-transparent-social-media-instagram-login-graphy-ig-instagram-icon-rectangle-magenta-mobile-phones-thumbnail.png"
+                alt="Instagram"
+            /></a>
+            <a href="#"><img src="images.png" alt="Twitter" /></a>
+          </div>
+        </div>
+      </div>
+      <p class="footer-credit">© 2024 Dark Academia. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
